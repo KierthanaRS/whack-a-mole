@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         context.clearRect(0, 0, canvas.width, canvas.height);
         canvas.style.display = 'none';
         document.getElementById('message').innerHTML = `<strong>Game Over! Your Score: ${score}</strong>
-        <br><br><button id="restart" onclick="window.location.href = 'index.html'">Restart</button><br><br><br><br><br>`;
+        <br><br><button id="restart" onclick="window.location.href = 'game.html'">Restart</button><br><br><br><br><br>`;
         let res = score;
         if (res<=4 && res!=0){
             document.getElementById('result').innerHTML = `<img src="losing.gif" alt="You loseF" width="640" height="360">`
